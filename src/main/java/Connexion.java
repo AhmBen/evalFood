@@ -30,14 +30,6 @@ public class Connexion {
 												prop.getProperty("db.username"),
 												prop.getProperty("db.password")
 											);
-			/*
-			conn= DriverManager.getConnection(
-												"jdbc:postgresql://stampy.db.elephantsql.com:5432"
-												,"tmmeradk"
-												,"2JxoL4OXx_f1G6lTSPW56kEF-GGKCI9a"
-											);
-			*/
-			//
 						
 		}
 		catch(SQLException e) {
