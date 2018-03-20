@@ -1,0 +1,8 @@
+===============================================================================================
+MANUEL DE DEVELOPPEMENT
+===============================================================================================
+
+Lors du premier lancement de l'application, les tables sont automatiquement crées.
+Une verification est systématiquement faite pour tester l'existance des tables necessaires au fonctionnement de l'application.
+
+La table catégories est pré-alimentée avec quelques valeurs (liste sur manuel d'utilisation) pour pouvoir démarrer rapidement les saisies.
