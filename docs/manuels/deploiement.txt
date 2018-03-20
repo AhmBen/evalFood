@@ -4,7 +4,7 @@ MANUEL DE DEPLOIEMENT :
 
 Le projet est pret a l'emploi, il n'y a rien de particulier à installer.
 
-Le projet "Food" est composé de 4 classes qui utilisent 2 tables.
+Le projet "Food" est composé de 5 classes qui utilisent 2 tables.
 Il contient également dans le repertoire docs plusieurs manuels.
 
 Tables :
@@ -29,6 +29,10 @@ Classes :
 -- Affichage du menu (en boucle jusqu’à demande de sortie faite par l'utilisateur)
 -- Lors de la première exécution, les 2 tables seront créées.
 -- La table Cats contiendra une dizaine de valeurs par défaut.
+
+- Connexion
+-- Contient les scripts de connexion/déconnexion à la BDD
+-- Utilise le fichier bdd.properties (contient les parametres de connexion)
 
 - CreateTable :
 -- Contient les requêtes Sql de création des tables 
