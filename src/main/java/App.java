@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Scanner;
@@ -8,7 +9,7 @@ public class App {
 	public App() {		
 	}
 	
-	public static void main(String[] args) throws SQLException{
+	public static void main(String[] args) throws SQLException, IOException{
 		Connection c = Connexion.getConnexion();
 		
 		//Test si les tables existent, si non, on les crée.
