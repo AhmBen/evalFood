@@ -62,7 +62,7 @@ Possibilité de supprimer une catégorie de la table catégories.
 
  - La catégorie doit exister en base
  - Aucune aliment de la table aliment  ne doit être relié à une catégorie à supprimer, sinon supprimer ou mettre à jour la catégories de tous les aliments
- - 
+
 # 6) Afficher toute les catégories
 Permet l'affichage de toute la liste des catégories, triée sur le nom
 ## Règles fonctionnelles :
