@@ -25,7 +25,7 @@ public class Connexion {
 			// load a properties file
 			prop.load(input);
 
-			// get the property value and print it out
+			// get the property value and print it out//
 			conn= DriverManager.getConnection(	prop.getProperty("db.url"),
 												prop.getProperty("db.username"),
 												prop.getProperty("db.password")
