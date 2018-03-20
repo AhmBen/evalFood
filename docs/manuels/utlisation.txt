@@ -67,7 +67,7 @@ Liste triées sur le nom des aliments.
 Possibilité d'ajouter une catégorie dans la table catégories.
 - Règles fonctionnelles :
 -- La catégorie ne doit pas déjà exister
--- champs obligatoires
+-- champs obligatoires.
 
 5) Supprimer une catégorie
 Possibilité de supprimer une catégorie de la table catégories.
